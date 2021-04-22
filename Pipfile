@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+flake8 = "*"
+jupyter = "*"
+jupyter-contrib-nbextensions = "*"
+jupyter-nbextensions-configurator = "*"
+
+[packages]
+numpy = "*"
+pandas = "*"
+jupyter = "*"
+jupytext = "*"
+matplotlib = "*"
+seaborn = "*"
+pandas-profiling = "*"
+jupyter-contrib-nbextensions = "*"
+jupyter-nbextensions-configurator = "*"
+scikit-learn = "*"
+lightgbm = "*"
+xgboost = "*"
+
+[requires]
+python_version = "3.7"
