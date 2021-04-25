@@ -23,6 +23,9 @@ jupyter-nbextensions-configurator = "*"
 scikit-learn = "*"
 lightgbm = "*"
 xgboost = "*"
+tensorflow = "*"
+keras = "*"
+tensorflow-gpu = "*"
 
 [requires]
 python_version = "3.7"
