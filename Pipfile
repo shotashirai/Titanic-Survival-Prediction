@@ -26,6 +26,9 @@ xgboost = "*"
 tensorflow = "*"
 keras = "*"
 tensorflow-gpu = "*"
+jupyterlab = "*"
+jupyterlab-git = "*"
+lckr-jupyterlab-variableinspector = "*"
 
 [requires]
 python_version = "3.7"
