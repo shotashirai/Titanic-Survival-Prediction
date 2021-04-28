@@ -13,10 +13,11 @@ Using the passenger data provided by Kaggle, exploratory data analysis (EDA) and
 
 ## Methodology
 ### Exploratory Data Analysis (EDA) / Data enginnering
-Initial exploration of the training data and test data has been done on Jupyter notebook (TitanicSurvivalPrediction_EDA_Model.ipynb) using **pandas** and **pandas_profiling**. The pandas_plofiling generates ProfileReport describe statistics (data type, missing values, histogram, etc...) of the data on an interactive HTML report. To visualise the detail of the data, **Plotly** and **Seaborn** are used. At this stage, missing data is also interpolated.
+Initial exploration of the training data and test data has been done on Jupyter notebook (TitanicSurvivalPrediction_EDA_Model.ipynb) using **pandas** and **pandas_profiling**. The pandas_plofiling generates ProfileReport describe statistics (data type, missing values, histogram, etc...) of the data on an interactive HTML report. To visualise the detail of the data, **Matplotlib**, **Plotly** and **Seaborn** are used. At this stage, data imputation is also implemented.
   
 ### Classification model
 To classify passengers into survived and not survived, binary models are built using (**Linear regression, Logistic Regression, Extra Trees, Random Forest, Gradient Boosting, SVM, Neural Network**). To build the models, **scikit-learn** and **Keras** were used. The results of the classifications were evaluated using **k-fold cross-validation**. 
 
 ## Results
 The best result among the models with an **accuracy of 82%** using Random Forest achieved a submission position within **the top 8%** of the Kaggle Submission Leaderboard (~33,000 teams). The analysis is shown in the notebook (TitanicSurvivalPrediction_EDA_Model.ipynb)
+
