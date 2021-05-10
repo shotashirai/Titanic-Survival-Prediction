@@ -19,5 +19,5 @@ Initial exploration of the training data and test data has been done on Jupyter 
 To classify passengers into survived and not survived, binary models are built using (**Linear regression, Logistic Regression, Extra Trees, Random Forest, Gradient Boosting, SVM, Neural Network**). To build the models, **scikit-learn** and **Keras** were used. The results of the classifications were evaluated using **k-fold cross-validation**. 
 
 ## Results
-The best result among the models with an **accuracy of 82%** using Random Forest achieved a submission position within **the top 8%** of the Kaggle Submission Leaderboard (~33,000 teams). The analysis is shown in the notebook (TitanicSurvivalPrediction_EDA_Model.ipynb)
+The best result among the models with an **accuracy of 84%** using Random Forest achieved a submission position within **the top 3%** of the Kaggle Submission Leaderboard (~33,000 teams). The analysis is shown in the notebook (TitanicSurvivalPrediction_EDA_Model.ipynb)
 
